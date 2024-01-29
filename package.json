@@ -1,0 +1,27 @@
+{
+  "name": "expresslane",
+  "version": "0.0.1",
+  "description": "",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/lib/runner.js",
+    "dev": "nodemon src/lib/runner.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.6",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
